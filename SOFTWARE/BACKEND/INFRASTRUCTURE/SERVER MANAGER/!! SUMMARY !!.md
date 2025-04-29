@@ -9,6 +9,8 @@ The Server Manager will be able to do following things:
 - Automatic Backups (if enabled) [/BACKUPS](BACKUPS.md)
 - Save/Update modified files [/FILE_MANAGER](FILE_MANAGER.md)
 
+- Copy [Wings](https://github.com/pterodactyl/wings?tab=readme-ov-file)
+
 POTENTIALLY:
 
 - Custom Forks of Paper, Purpur, Fabric, SpongeMC, etc. where auto updates are built in.
