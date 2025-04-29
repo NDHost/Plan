@@ -47,7 +47,7 @@ Body: <br/>
   "software": "",
   // fabric, sponge, pufferfish, papermc, folia, etc.
   "version": ""
-  // 1.12.2, 1.21.4, etc.
+  // 1.12.2, 1.21.4, etc. OR (with loader version) 1.16.5+39.0.42
 }
 ```
 
