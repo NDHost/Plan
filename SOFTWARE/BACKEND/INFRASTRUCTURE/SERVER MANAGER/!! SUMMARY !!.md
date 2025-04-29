@@ -8,8 +8,12 @@ The Server Manager will be able to do following things:
 - Load and Save Server Templates (Made by us and the community) [/TEMPLATES](TEMPLATES.md)
 - Automatic Backups (if enabled) [/BACKUPS](BACKUPS.md)
 - Save/Update modified files [/FILE_MANAGER](FILE_MANAGER.md)
+- REST API to manage everything [RESTAPI](RESTAPI)
 
-- Copy [Wings](https://github.com/pterodactyl/wings?tab=readme-ov-file)
+Wings-Like Features:
+
+- Fetch CPU, RAM and Storage usage
+- Create a Docker Container where the server is stored in and give the option to delete it.
 
 POTENTIALLY:
 
