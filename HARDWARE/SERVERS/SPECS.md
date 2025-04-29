@@ -12,8 +12,6 @@ Euro per RAM ratio: ?? (for example, 1.50€ per GB of RAM) <br/>
 
 Chosen host: Not Decided Yet <br/>
 Options:
-
-- Nusses.at
 - Hetzner
 - Contabo (PLS NOT)
 - Prepaid-Host.com
