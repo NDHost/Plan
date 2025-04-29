@@ -6,41 +6,41 @@ Authorization Header: NDH {USER_API_KEY}
 
 ### /power/status
 
-Request Type: GET
-Description: Returns the current status (Online, Offline, Restarting)
+Request Type: GET <br/>
+Description: Returns the current status (Online, Offline, Restarting) <br/>
 
 ### /power/start
 
-Request Type: POST
-Description: Starts the server
+Request Type: POST <br/>
+Description: Starts the server <br/>
 
 ### /power/restart
 
-Request Type: POST
-Description: Restarts the server
+Request Type: POST <br/>
+Description: Restarts the server <br/>
 
 ### /power/stop
 
-Request Type: POST
-Description: Stops the server
+Request Type: POST <br/>
+Description: Stops the server <br/>
 
 ### /power/kill
 
-Request Type: POST
-Description: Stops the server immediately
+Request Type: POST <br/>
+Description: Stops the server immediately <br/>
 
 ## Sever Version & Software
 
 ### /version
 
-Request Type: GET
-Description: Returns the current server version and software (e.g.: Fabric 1.12.2)
+Request Type: GET <br/>
+Description: Returns the current server version and software (e.g.: Fabric 1.12.2) <br/>
 
 ### /version/change
 
-Request Type: POST
-Description: Changes server version and software (e.g.: Fabric 1.12.2)
-Body:
+Request Type: POST <br/>
+Description: Changes server version and software (e.g.: Fabric 1.12.2) <br/>
+Body: <br/>
 
 ```json5
 {
@@ -55,10 +55,10 @@ Body:
 
 ### /delete/server
 
-Request Type: POST
+Request Type: POST <br/>
 Description: Deletes all plugins, worlds, etc. resets the server to the default of the provided software and version, if
-provided
-Body:
+provided <br/>
+Body: <br/>
 
 ```json5
 {
@@ -71,5 +71,5 @@ Body:
 
 ### /delete/container
 
-Request Type: POST
-Description: Deletes the docker container of the Server
+Request Type: POST <br/>
+Description: Deletes the docker container of the Server <br/>
